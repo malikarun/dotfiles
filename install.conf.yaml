@@ -10,10 +10,12 @@
     ~/.vimrc:
     ~/.zshrc:
     ~/.gitconfig:
-    ~/.config/nvim/init.vim: init.vim
+    ~/.config/nvim/init.vim:
+      create: true
+      path: init.vim
 
-#- create:
-#  - ~/.vim/undo-history
+- create:
+    - ~/code
 
 #- shell:
 #  - [git submodule update --init --recursive, Installing submodules]
