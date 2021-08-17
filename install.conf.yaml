@@ -1,8 +1,13 @@
 - defaults:
     link:
+      create: true
       relink: true
 
-- clean: ['~']
+- clean:
+    ~/:
+      force: true
+    ~/.config:
+      recursive: true
 
 - link:
     ~/.tmux.conf:
@@ -10,9 +15,7 @@
     ~/.vimrc:
     ~/.zshrc:
     ~/.gitconfig:
-    ~/.config/nvim/init.vim:
-      create: true
-      path: init.vim
+    ~/.config/nvim/init.vim: nvim/init.vim
 
 - create:
     - ~/code
