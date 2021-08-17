@@ -10,6 +10,7 @@
     ~/.vimrc:
     ~/.zshrc:
     ~/.gitconfig:
+    ~/.config/nvim/init.vim: init.vim
 
 #- create:
 #  - ~/.vim/undo-history
