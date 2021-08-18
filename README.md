@@ -8,6 +8,4 @@ My macOS dotfiles
 - Mission Control Preferences
 - Finder show Path Bar
 - Trackpad Preferences
-- .zshrc
 - Git (Config and ssh)
-- Homebrew Installation
