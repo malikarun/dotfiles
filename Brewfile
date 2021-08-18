@@ -1,0 +1,18 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+brew "asdf"
+brew "direnv"
+brew "ghostscript"
+brew "git-flow"
+brew "gnupg"
+brew "imagemagick"
+brew "neovim"
+brew "postgresql", restart_service: true
+brew "redis", restart_service: true
+brew "ripgrep"
+brew "tmux"
+cask "chromedriver"
+cask "google-chrome"
+cask "visual-studio-code"
