@@ -10,4 +10,4 @@ My macOS dotfiles
 - Trackpad Preferences
 - .zshrc
 - Git (Config and ssh)
-
+- Homebrew Installation
