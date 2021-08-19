@@ -5,9 +5,7 @@
     autosquash = true
 [user]
     name  = Arun Malik
-    email = 3743409+malikarun@users.noreply.github.com
+    email = arun.kumar1@bentley.com
 [alias]
     gpf   = git push --force-with-lease
 
-[includeIf "gitdir:envision/"]
-  path = ~/.gitconfig-work

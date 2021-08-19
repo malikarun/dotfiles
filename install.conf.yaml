@@ -15,6 +15,7 @@
     ~/.vimrc:
     ~/.zshrc:
     ~/.gitconfig:
+    ~/.gitconfig-work:
     ~/.config/nvim/init.vim: nvim/init.vim
 
 - create:
