@@ -15,5 +15,5 @@ brew "redis", restart_service: true
 brew "ripgrep"
 brew "tmux"
 cask "chromedriver"
-cask "google-chrome"
-cask "visual-studio-code"
+# cask "google-chrome"
+# cask "visual-studio-code"

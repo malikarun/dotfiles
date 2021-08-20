@@ -17,6 +17,7 @@
     ~/.gitconfig:
     ~/.gitconfig-work:
     ~/.config/nvim/init.vim: nvim/init.vim
+    ~/.config/nvim/config: nvim/config
 
 - create:
     - ~/code

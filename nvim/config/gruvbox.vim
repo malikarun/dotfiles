@@ -1,0 +1,2 @@
+" Gruvbox
+colorscheme gruvbox
