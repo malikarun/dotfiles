@@ -1,0 +1,14 @@
+# ZSH home setup
+. ~/.config/zsh/home
+# Theme
+. ~/.config/zsh/theme
+# Exports
+. ~/.config/zsh/exports
+# Plugins
+plugins=(git asdf)
+# Alias
+. ~/.config/zsh/alias
+# DIRENV for zsh
+. ~/.config/zsh/direnv
+# source it
+source $ZSH/oh-my-zsh.sh

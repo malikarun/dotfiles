@@ -10,4 +10,4 @@
     gpf   = git push --force-with-lease
 
 [includeIf "gitdir:envision/"]
-  path = ~/.gitconfig-work
+  path = ~/.config/git/gitconfig-work

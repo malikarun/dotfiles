@@ -10,14 +10,14 @@
       recursive: true
 
 - link:
-    ~/.tmux.conf:
-    ~/.vim:
-    ~/.vimrc:
-    ~/.zshrc:
-    ~/.gitconfig:
-    ~/.gitconfig-work:
-    ~/.config/nvim/init.vim: nvim/init.vim
-    ~/.config/nvim/config: nvim/config
+    ~/.tmux.conf: config/tmux/tmux.conf
+    ~/.zshrc: config/zsh/zshrc
+    ~/.gitconfig: config/git/gitconfig
+    # configs
+    ~/.config/vim: config/vim
+    ~/.config/zsh: config/zsh
+    ~/.config/git: config/git
+    ~/.config/nvim: config/nvim
 
 - create:
     - ~/code
