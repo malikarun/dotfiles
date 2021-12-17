@@ -21,6 +21,7 @@ defaults write com.apple.dock autohide-delay -float 0.1
 
 # System Preferences > Accessibility > Pointer Control > Mouse & Trackpad > Trackpad Options > Enable Dragging > Three Finger Drag (NOTE: The GUI doesn't update)
 defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool true
+defaults -currentHost write NSGlobalDomain com.apple.trackpad.threeFingerSwipeGesture -int 1
 
 # System Preferences > Keyboard > Speed
 defaults write -g InitialKeyRepeat -int 10 # normal minimum is 15 (225 ms)
@@ -28,8 +29,23 @@ defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)
 
 # Hide apps from dock
 defaults write com.apple.dock show-recents -bool no
-# /usr/libexec/PlistBuddy -c "delete:add-app" /System/Library/CoreServices/Dock.app/Contents/Resources/com.apple.dockfixup.plist
-# /usr/libexec/PlistBuddy -c "delete:add-doc" /System/Library/CoreServices/Dock.app/Contents/Resources/com.apple.dockfixup.plist
+dockutil --remove 'Safari' --allhomes
+dockutil --remove 'Messages' --allhomes
+dockutil --remove 'Mail' --allhomes
+dockutil --remove 'Maps' --allhomes
+dockutil --remove 'Photos' --allhomes
+dockutil --remove 'FaceTime' --allhomes
+dockutil --remove 'Calendar' --allhomes
+dockutil --remove 'Contacts' --allhomes
+dockutil --remove 'Notes' --allhomes
+dockutil --remove 'TV' --allhomes
+dockutil --remove 'Numbers' --allhomes
+dockutil --remove 'Music' --allhomes
+dockutil --remove 'Podcasts' --allhomes
+dockutil --remove 'News' --allhomes
+dockutil --remove 'Keynote' --allhomes
+dockutil --remove 'Pages' --allhomes
+dockutil --add 'iTerm' --allhomes
 
 # Third-Party Software
 
