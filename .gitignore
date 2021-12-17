@@ -6,3 +6,5 @@ config/nvim/plugin/
 config/nvim/undo/
 
 config/iterm2/AppSupport
+
+config/gh

@@ -24,5 +24,11 @@ ln $(pwd)/config/tmux/tmux.conf $HOME/.tmux.conf #link configured tmux file
 rm $HOME/.gitconfig # remove existing tmux conf
 ln $(pwd)/config/git/gitconfig  $HOME/.gitconfig # link configured git config file
 
+# ssh
+./config/ssh/setup.zsh
+
+# github
+./config/github/ssh-keys.zsh
+
 # Overide macos defaults
 ./macos.zsh
