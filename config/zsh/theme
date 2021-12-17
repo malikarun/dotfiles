@@ -1,0 +1,8 @@
+ZSH_THEME="bullet-train"
+BULLETTRAIN_PROMPT_ORDER=(
+  # context
+  dir
+  ruby
+  # nodejs
+  git
+)

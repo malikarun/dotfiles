@@ -1,0 +1,6 @@
+Brewfile.lock.json
+.DS_Store
+
+config/nvim/plugged/
+config/nvim/plugin/
+config/nvim/undo/

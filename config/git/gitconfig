@@ -1,0 +1,17 @@
+[pull]
+        rebase = true
+[rebase]
+        autoStash = true
+        autosquash = true
+[user]
+        name  = Arun Malik
+        email = 3743409+malikarun@users.noreply.github.com
+[alias]
+        gpf   = git push --force-with-lease
+[core]
+        editor = nvim
+        pager = (which delta &> /dev/null && delta --color-only --theme=none --24-bit-color=never --max-line-distance 1.0 || cat) | ${PAGER:-less}
+[interactive]
+        diffFilter=(which delta &> /dev/null && delta --color-only --theme=none --24-bit-color=never --max-line-distance 1.0 || cat)
+[includeIf "gitdir:envision/"]
+        path = ~/.config/git/gitconfig-work

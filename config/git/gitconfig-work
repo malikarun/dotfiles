@@ -1,0 +1,11 @@
+[pull]
+    rebase = true
+[rebase]
+    autoStash = true
+    autosquash = true
+[user]
+    name  = Arun Malik
+    email = arun.kumar1@bentley.com
+[alias]
+    gpf   = git push --force-with-lease
+

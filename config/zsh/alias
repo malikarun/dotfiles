@@ -1,0 +1,3 @@
+alias lsa='ls -lAFh'
+alias vim='nvim'
+alias trail='<<<${(F)path}'

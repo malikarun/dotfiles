@@ -1,0 +1,7 @@
+export HOMEBREW_CASK_OPTS="--no-quarantine"
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/homebrew/bin:$PATH"
+export GIT_EDITOR=nvim
+export VISUAL=nvim
+export EDITOR="$VISUAL"
