@@ -4,3 +4,5 @@ Brewfile.lock.json
 config/nvim/plugged/
 config/nvim/plugin/
 config/nvim/undo/
+
+config/iterm2/AppSupport
