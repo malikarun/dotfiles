@@ -9,6 +9,7 @@ brew "awscli"
 brew "direnv"
 brew "docker", link: false
 brew "dockutil"
+brew "gh"
 brew "ghostscript"
 brew "git"
 brew "git-delta"
