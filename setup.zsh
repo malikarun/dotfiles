@@ -2,12 +2,8 @@
 rm $HOME/.config
 ln -s $(pwd)/config $HOME/.config
 
-# Overide macos defaults
-# ./macos.zsh
-
 # Install Homebrew
 ./homebrew.zsh
-eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # ZSH
 ./config/zsh/install.zsh #install
@@ -19,3 +15,14 @@ ln $(pwd)/config/zsh/zprofile $HOME/.zprofile #link configured zprofile to home 
 
 # Nvim
 ./config/nvim/packer.zsh # Install Packer
+
+# tmux
+rm $HOME/.tmux.conf # remove existing tmux conf
+ln $(pwd)/config/tmux/tmux.conf $HOME/.tmux.conf #link configured tmux file
+
+# git
+rm $HOME/.gitconfig # remove existing tmux conf
+ln $(pwd)/config/git/gitconfig  $HOME/.gitconfig # link configured git config file
+
+# Overide macos defaults
+./macos.zsh
