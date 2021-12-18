@@ -45,7 +45,7 @@ dockutil --remove 'Podcasts' --allhomes
 dockutil --remove 'News' --allhomes
 dockutil --remove 'Keynote' --allhomes
 dockutil --remove 'Pages' --allhomes
-dockutil --add 'iTerm' --allhomes
+dockutil --add /Applications/iTerm.app --allhomes
 
 # Third-Party Software
 
