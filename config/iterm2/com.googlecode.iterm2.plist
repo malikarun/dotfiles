@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CloseBookmarksWindowAfterOpening</key>
+	<true/>
 	<key>Default Bookmark Guid</key>
 	<string>BD933296-1404-45C5-B4C9-DBA0C62923BF</string>
 	<key>HapticFeedbackForEsc</key>
