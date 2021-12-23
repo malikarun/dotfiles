@@ -4,7 +4,6 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
-brew "asdf"
 brew "awscli"
 brew "direnv"
 brew "docker", link: false
