@@ -22,6 +22,7 @@ defaults write com.apple.dock autohide-delay -float 0.1
 # System Preferences > Accessibility > Pointer Control > Mouse & Trackpad > Trackpad Options > Enable Dragging > Three Finger Drag (NOTE: The GUI doesn't update)
 defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool true
 defaults -currentHost write NSGlobalDomain com.apple.trackpad.threeFingerSwipeGesture -int 1
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool true
 
 # System Preferences > Keyboard > Speed
 defaults write -g InitialKeyRepeat -int 10 # normal minimum is 15 (225 ms)
