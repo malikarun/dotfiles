@@ -28,6 +28,7 @@ cask "font-hack-nerd-font"
 cask "google-chrome"
 cask "iterm2"
 cask "postman"
+cask "visual-studio-code"
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
