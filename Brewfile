@@ -5,6 +5,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
 brew "awscli"
+brew "circleci"
 brew "direnv"
 brew "docker", link: false
 brew "dockutil"
