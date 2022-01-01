@@ -1,1 +1,1 @@
-npm i -g @ionic/cli nx ng
+npm i -g @ionic/cli @angular/cli nx
