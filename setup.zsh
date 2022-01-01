@@ -33,5 +33,8 @@ ln $(pwd)/config/git/gitconfig  $HOME/.gitconfig # link configured git config fi
 # github
 ./config/github/ssh-keys.zsh
 
+# node
+./node.zsh
+
 # Overide macos defaults
 ./macos.zsh
