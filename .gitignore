@@ -9,3 +9,5 @@ config/iterm2/AppSupport
 
 config/gh
 config/github-copilot
+
+config/configstore
