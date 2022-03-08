@@ -24,7 +24,10 @@ rm $HOME/.tmux.conf # remove existing tmux conf
 ln $(pwd)/config/tmux/tmux.conf $HOME/.tmux.conf #link configured tmux file
 
 # git
-rm $HOME/.gitconfig # remove existing tmux conf
+rm $HOME/.gitignore # remove existing gitignore
+ln $(pwd)/config/git/gitignore  $HOME/.gitignore # link configured gitignore file
+
+rm $HOME/.gitconfig # remove existing git conf
 ln $(pwd)/config/git/gitconfig  $HOME/.gitconfig # link configured git config file
 
 # ssh
