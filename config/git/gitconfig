@@ -10,9 +10,9 @@
         gpf   = git push --force-with-lease
 [core]
         editor       = nvim
-        pager        = (which delta &> /dev/null && delta --color-only --theme=none --24-bit-color=never --max-line-distance 1.0 || cat) | ${PAGER:-less}
+        pager        = (which delta &> /dev/null && delta --color-only --24-bit-color=never --max-line-distance 1.0 || cat) | ${PAGER:-less}
         excludesfile = ~/.gitignore
 [interactive]
-        diffFilter = (which delta &> /dev/null && delta --color-only --theme=none --24-bit-color=never --max-line-distance 1.0 || cat)
+        diffFilter = (which delta &> /dev/null && delta --color-only --24-bit-color=never --max-line-distance 1.0 || cat)
 [includeIf "gitdir:envision/"]
         path = ~/.config/git/gitconfig-work
