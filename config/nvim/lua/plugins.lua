@@ -14,7 +14,7 @@ return packer.startup(function(use)
   use 'rking/vim-ruby-refactoring'
   use 'thoughtbot/vim-rspec'
   use 'neovim/nvim-lspconfig'
-  use 'github/copilot.vim'
+  -- use 'github/copilot.vim'
   use 'tpope/vim-unimpaired'
 
   use {
