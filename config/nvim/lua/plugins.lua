@@ -143,4 +143,14 @@ return packer.startup(function(use)
       ]])
     end
   }
+
+  use {
+     'akinsho/bufferline.nvim',
+     tag = "v3.*",
+     requires = 'nvim-tree/nvim-web-devicons',
+     config = function()
+       vim.opt.termguicolors = true
+       require("bufferline").setup{}
+     end
+  }
 end)
