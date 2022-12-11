@@ -15,7 +15,9 @@ brew "azure-cli"
 brew "cabextract"
 brew "circleci"
 brew "cli53"
-brew "docker", link: false
+brew "glib"
+brew "gnutls"
+brew "colima"
 brew "dockutil"
 brew "exiftool", link: false
 brew "gh"
@@ -25,8 +27,6 @@ brew "git-delta"
 brew "git-flow", link: false
 brew "git-flow-avh"
 brew "gitleaks"
-brew "glib"
-brew "gnutls"
 brew "gnupg"
 brew "graphicsmagick"
 brew "python@3.9"
@@ -38,7 +38,6 @@ brew "nghttp2"
 brew "postgresql@14", restart_service: true
 brew "redis", restart_service: true
 brew "ripgrep"
-brew "ruby"
 brew "tmux"
 brew "zsh"
 brew "heroku/brew/heroku"
