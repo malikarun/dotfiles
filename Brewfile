@@ -18,6 +18,7 @@ brew "cli53"
 brew "glib"
 brew "gnutls"
 brew "colima"
+brew "docker"
 brew "dockutil"
 brew "exiftool", link: false
 brew "gh"
