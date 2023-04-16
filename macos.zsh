@@ -48,6 +48,7 @@ dockutil --remove 'Keynote' --allhomes
 dockutil --remove 'Pages' --allhomes
 dockutil --add /Applications/iTerm.app --allhomes
 dockutil --add /Applications/'Visual Studio Code'.app --allhomes
+dockutil --add /Applications/'Google Chrome'.app --allhomes
 
 # Third-Party Software
 
