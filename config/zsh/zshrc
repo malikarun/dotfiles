@@ -1,15 +1,15 @@
 # ZSH home setup
-source ~/.config/zsh/home
+source ~/.config/config/zsh/home
 # Theme
-source ~/.config/zsh/theme
+source ~/.config/config/zsh/theme
 # Exports
-source ~/.config/zsh/exports
+source ~/.config/config/zsh/exports
 # Plugins
-source ~/.config/zsh/plugins
+source ~/.config/config/zsh/plugins
 # Alias
-source ~/.config/zsh/alias
+source ~/.config/config/zsh/alias
 # DIRENV for zsh
-source ~/.config/zsh/direnv
+source ~/.config/config/zsh/direnv
 # source it
 source $ZSH/oh-my-zsh.sh
 

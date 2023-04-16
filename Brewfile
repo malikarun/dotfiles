@@ -7,6 +7,7 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "hpedrorodrigues/tools"
 brew "jpeg-turbo"
 brew "asdf"
 brew "awscli"
@@ -19,7 +20,6 @@ brew "glib"
 brew "gnutls"
 brew "colima"
 brew "docker"
-brew "dockutil"
 brew "exiftool", link: false
 brew "gh"
 brew "ghostscript"
@@ -30,7 +30,6 @@ brew "git-flow-avh"
 brew "gitleaks"
 brew "gnupg"
 brew "graphicsmagick"
-brew "python@3.9"
 brew "imagemagick", link: false
 brew "libpq"
 brew "mas"
@@ -46,14 +45,10 @@ cask "1password-cli"
 cask "android-sdk"
 cask "android-studio"
 cask "chromedriver"
+cask "dockutil"
 cask "font-hack-nerd-font"
+cask "iterm2"
 cask "postman"
 cask "rectangle"
 cask "smlnj"
 cask "wine-crossover"
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Toggl Track", id: 957734279
