@@ -19,6 +19,7 @@ brew "glib"
 brew "gnutls"
 brew "colima"
 brew "docker"
+brew "docker-credential-helper"
 brew "exiftool", link: false
 brew "gh"
 brew "ghostscript"
