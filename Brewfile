@@ -39,6 +39,7 @@ brew "postgresql@14", restart_service: true
 brew "redis", restart_service: true
 brew "ripgrep"
 brew "tmux"
+brew "tmuxp"
 brew "zsh"
 brew "heroku/brew/heroku"
 cask "1password-cli"
