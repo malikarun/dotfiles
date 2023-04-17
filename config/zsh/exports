@@ -7,5 +7,8 @@ export VISUAL=nvim
 export EDITOR="$VISUAL"
 export DISABLE_AUTO_TITLE='true'
 
-# . /opt/homebrew/opt/asdf/libexec/asdf.sh
-. $HOME/.asdf/asdf.sh
+# ASDF
+export PATH="$HOME/.asdf/bin:$PATH"
+export PATH="$HOME/.asdf/shims:$PATH"
+# OR if this can work sometime
+# . $HOME/.asdf/asdf.sh
