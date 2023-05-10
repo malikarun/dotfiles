@@ -28,6 +28,12 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeF
 defaults write -g InitialKeyRepeat -int 10 # normal minimum is 15 (225 ms)
 defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)
 
+# System Preferences > Lock Screen > Turn Display of on Power Adapter when Inactive
+sudo systemsetup -setcomputersleep 10
+
+# System Preferences > Lock Screen > Turn Display of on Battery when Inactive
+# Need to find out
+
 # Hide apps from dock
 defaults write com.apple.dock show-recents -bool no
 dockutil --remove 'Safari' --allhomes
