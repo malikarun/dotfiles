@@ -1,5 +1,5 @@
 # link the config directory to home folder
-rm $HOME/.config
+rm -rf $HOME/.config
 ln -s $(pwd)/config $HOME/.config
 
 # Install Homebrew
