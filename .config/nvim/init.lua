@@ -1,4 +1,4 @@
--- packer
+require 'lazy'
 require 'plugins'
 require 'reset'
 require 'tree'

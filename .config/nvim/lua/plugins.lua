@@ -1,5 +1,4 @@
 return packer.startup(function(use)
-  use { 'wbthomason/packer.nvim', opt = false }
   use 'tpope/vim-fugitive'
   use 'tpope/vim-sensible'
   use 'airblade/vim-gitgutter'
