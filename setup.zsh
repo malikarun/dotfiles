@@ -22,9 +22,6 @@ mkdir -p ~/.docker/cli-plugins
 ln -sfn $(which docker-compose) ~/.docker/cli-plugins/docker-compose
 ([ -f ~/.docker/config.json ] && grep -q credStore ~/.docker/config.json) || echo '{"credsStore":"osxkeychain"}' > ~/.docker/config.json
 
-# Nvim
-./.config/nvim/packer.zsh # Install Packer
-
 # tmux
 rm $HOME/.tmux.conf # remove existing tmux conf
 ln $(pwd)/.config/tmux/tmux.conf $HOME/.tmux.conf #link configured tmux file
