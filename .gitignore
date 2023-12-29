@@ -8,5 +8,7 @@ Brewfile.lock.json
 .config/iterm2/AppSupport
 
 .config/github-copilot
+.config/filezilla
+.config/flutter
 
 .config/configstore
