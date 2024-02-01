@@ -52,6 +52,8 @@ dockutil --remove 'Podcasts' --allhomes
 dockutil --remove 'News' --allhomes
 dockutil --remove 'Keynote' --allhomes
 dockutil --remove 'Pages' --allhomes
+dockutil --remove 'Reminders' --allhomes
+dockutil --remove 'Freeform' --allhomes
 dockutil --add /Applications/iTerm.app --allhomes
 dockutil --add /Applications/'Visual Studio Code'.app --allhomes
 dockutil --add /Applications/'Google Chrome'.app --allhomes

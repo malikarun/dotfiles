@@ -1,5 +1,6 @@
 rm -rf $HOME/.asdf
-git clone https://github.com/asdf-vm/asdf.git $HOME/.asdf
+git clone https://github.com/asdf-vm/asdf.git $HOME/.asdf --branch v0.14.0
+. "$HOME/.asdf/asdf.sh"
 
 rm $HOME/.tool-versions
 ln -s $(pwd)/.config/asdf/tool-versions $HOME/.tool-versions
