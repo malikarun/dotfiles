@@ -44,3 +44,6 @@ ln $(pwd)/.config/git/gitconfig  $HOME/.gitconfig # link configured git config f
 
 # Overide macos defaults
 ./macos.zsh
+
+# Setup Nvim
+./nvim.zsh
