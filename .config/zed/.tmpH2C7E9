@@ -1,0 +1,11 @@
+{"signed_in":false,"type":"Setting","setting":"theme","value":"Ayu Dark","milliseconds_since_first_event":0}
+{"signed_in":false,"type":"Setting","setting":"keymap","value":"VSCode","milliseconds_since_first_event":0}
+{"signed_in":false,"type":"App","operation":"open","milliseconds_since_first_event":0}
+{"signed_in":false,"type":"Editor","operation":"open","file_extension":"json","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true,"milliseconds_since_first_event":0}
+{"signed_in":false,"type":"Assistant","conversation_id":"93acd0ef-20ea-44f8-b312-5d2f15b966fb","kind":"panel","model":"gpt-4-1106-preview","milliseconds_since_first_event":61518}
+{"signed_in":false,"type":"Memory","memory_in_bytes":451862528,"virtual_memory_in_bytes":48137379840,"milliseconds_since_first_event":230497}
+{"signed_in":false,"type":"Cpu","usage_as_percentage":6.3067617,"core_count":16,"milliseconds_since_first_event":230497}
+{"signed_in":false,"type":"Memory","memory_in_bytes":452100096,"virtual_memory_in_bytes":48136843264,"milliseconds_since_first_event":0}
+{"signed_in":false,"type":"Cpu","usage_as_percentage":0.05907258,"core_count":16,"milliseconds_since_first_event":0}
+{"signed_in":false,"type":"Memory","memory_in_bytes":452009984,"virtual_memory_in_bytes":39535026176,"milliseconds_since_first_event":240008}
+{"signed_in":false,"type":"Cpu","usage_as_percentage":0.047208022,"core_count":16,"milliseconds_since_first_event":240008}
