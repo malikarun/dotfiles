@@ -10,6 +10,8 @@ source ~/.config/zsh/plugins
 source ~/.config/zsh/alias
 # DIRENV for zsh
 source ~/.config/zsh/direnv
+# Conda
+source ~/.config/zsh/conda
 # source it
 source $ZSH/oh-my-zsh.sh
 
