@@ -7,10 +7,25 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "features": {
+    "copilot": false
+  },
+  "vim_mode": true,
   "theme": "Ayu Dark",
   "ui_font_size": 20,
   "buffer_font_size": 20,
+  "tab_size": 2,
+  "remove_trailing_whitespace_on_save": true,
   "assistant": {
-    "openai_api_url": "http://0.0.0.0:8000"
+    "openai_api_url": "http://localhost:11434/v1",
+    "default_open_ai_model": "gpt-4-1106-preview"
+  },
+  "lsp": {
+    "solargraph": {
+      "initialization_options": {
+        "diagnostics": true,
+        "formatting": true
+      }
+    }
   }
 }

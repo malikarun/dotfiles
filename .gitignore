@@ -12,3 +12,6 @@ Brewfile.lock.json
 .config/flutter
 
 .config/configstore
+
+.config/zed/*
+!.config/zed/settings.json
