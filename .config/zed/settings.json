@@ -15,6 +15,7 @@
   "ui_font_size": 20,
   "buffer_font_size": 20,
   "tab_size": 2,
+  "format_on_save": "on",
   "remove_trailing_whitespace_on_save": true,
   "assistant": {
     "openai_api_url": "http://localhost:11434/v1",
