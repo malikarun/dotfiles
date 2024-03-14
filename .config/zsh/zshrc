@@ -30,3 +30,7 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# Load fabric
+if [ -f "~/.config/fabric/fabric-bootstrap.inc" ]; then
+  . "~/.config/fabric/fabric-bootstrap.inc"
+fi
