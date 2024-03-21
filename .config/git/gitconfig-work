@@ -5,7 +5,7 @@
     autosquash = true
 [user]
     name  = Arun Malik
-    email = arun.kumar1@bentley.com
+    email = arun.malik@bentley.com
 [alias]
     gpf   = git push --force-with-lease
 
