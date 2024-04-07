@@ -53,6 +53,7 @@ brew "nghttp2"
 brew "poetry"
 brew "postgresql@14", link: false
 brew "postgresql@16", restart_service: true, link: true
+brew "pure"
 brew "python@3.10"
 brew "redis", restart_service: true
 brew "ripgrep"
