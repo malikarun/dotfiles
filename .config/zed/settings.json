@@ -18,8 +18,13 @@
   "format_on_save": "on",
   "remove_trailing_whitespace_on_save": true,
   "assistant": {
-    "openai_api_url": "http://localhost:11434/v1",
-    "default_open_ai_model": "gpt-4-1106-preview"
+    "version": "1",
+    "provider": {
+      "name": "openai",
+      "type": "openai",
+      "default_model": "gpt-4-turbo-preview",
+      "api_url": "http://localhost:11434/v1"
+    }
   },
   "lsp": {
     "solargraph": {
