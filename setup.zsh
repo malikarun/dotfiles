@@ -33,6 +33,9 @@ ln $(pwd)/.config/git/gitignore  $HOME/.gitignore # link configured gitignore fi
 rm $HOME/.gitconfig # remove existing git conf
 ln $(pwd)/.config/git/gitconfig  $HOME/.gitconfig # link configured git config file
 
+rm $HOME/.gemrc
+ln $(pwd)/.config/ruby/gemrc $HOME/.gemrc
+
 # ssh
 ./.config/ssh/setup.zsh
 
