@@ -54,6 +54,14 @@ dockutil --remove 'Keynote' --allhomes
 dockutil --remove 'Pages' --allhomes
 dockutil --remove 'Reminders' --allhomes
 dockutil --remove 'Freeform' --allhomes
+dockutil --remove 'Microsoft Excel' --allhomes
+dockutil --remove 'Microsoft Word' --allhomes
+dockutil --remove 'Microsoft Edge' --allhomes
+dockutil --remove 'Microsoft PowerPoint' --allhomes
+dockutil --remove 'Microsoft OneNote' --allhomes
+dockutil --remove 'OneDrive' --allhomes
+dockutil --remove 'Self Service' --allhomes
+
 dockutil --add /Applications/iTerm.app --allhomes
 dockutil --add /Applications/'Visual Studio Code'.app --allhomes
 dockutil --add /Applications/'Google Chrome'.app --allhomes
