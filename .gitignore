@@ -15,3 +15,5 @@ Brewfile.lock.json
 
 .config/zed/*
 !.config/zed/settings.json
+
+.config/containers/
