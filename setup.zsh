@@ -5,8 +5,6 @@ ln -s $(pwd)/.config $HOME/.config
 # Install Homebrew
 ./homebrew.zsh
 
-# ASDF with git
-./asdf.zsh
 
 # ZSH
 ./.config/zsh/install.zsh #install

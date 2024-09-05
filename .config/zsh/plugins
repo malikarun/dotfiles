@@ -1,1 +1,1 @@
-plugins=(git asdf zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
