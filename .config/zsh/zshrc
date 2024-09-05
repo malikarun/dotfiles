@@ -12,6 +12,8 @@ source ~/.config/zsh/alias
 source ~/.config/zsh/direnv
 # Conda
 source ~/.config/zsh/conda
+# Mise
+source ~/.config/zsh/mise
 # source it
 source $ZSH/oh-my-zsh.sh
 
