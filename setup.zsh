@@ -15,10 +15,7 @@ rm $HOME/.zprofile # remove existing zprofile
 ln $(pwd)/.config/zsh/zprofile $HOME/.zprofile #link configured zprofile to home folder
 
 # Docker
-rm -rf ~/.docker/cli-plugins
-mkdir -p ~/.docker/cli-plugins
-ln -sfn $(which docker-compose) ~/.docker/cli-plugins/docker-compose
-([ -f ~/.docker/config.json ] && grep -q credStore ~/.docker/config.json) || echo '{"credsStore":"osxkeychain"}' > ~/.docker/config.json
+./.config/docker/setup.zsh #setup
 
 # tmux
 rm $HOME/.tmux.conf # remove existing tmux conf
