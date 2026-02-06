@@ -1,2 +1,11 @@
 .DS_Store
-.mise.local.toml
+mise.local.toml
+mise.arun.toml
+aigi.md
+.kiro
+implementation_plan.md
+.specify
+specs/
+.config/goose
+!.config/goose/config.yml
+.config/yarn
