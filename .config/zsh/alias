@@ -2,3 +2,27 @@ alias lsa='ls -lAFh'
 alias vim='nvim'
 alias trail='<<<${(F)path}'
 alias sb='supabase'
+
+# Create a posport worktree, link shared local env, cd in, and trust mise.
+# Usage: gwt <name> [<branch-args>...]   e.g.  gwt my-feature -b my-feature
+# (Must be a shell function, not a git alias, so the cd affects this shell.)
+gwt() {
+  if [ -z "$1" ]; then
+    echo "usage: gwt <name> [<branch-args>...]" >&2
+    return 1
+  fi
+  local common root dest
+  common="$(git rev-parse --git-common-dir 2>/dev/null)" || {
+    echo "gwt: not inside a git repository" >&2
+    return 1
+  }
+  root="$(cd "$(dirname "$common")" && pwd)"
+  dest="$root/$1"
+  if [ -d "$dest" ]; then            # already exists -> just switch to it
+    echo "gwt: worktree '$1' already exists, switching to it" >&2
+  else
+    git wt "$@" || return $?         # create worktree + link shared local env
+  fi
+  mise trust "$dest" >/dev/null      # trust before cd so the cd-hook stays quiet
+  cd "$dest" || return $?            # switch into the new worktree
+}

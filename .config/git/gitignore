@@ -9,3 +9,4 @@ specs/
 .config/goose
 !.config/goose/config.yml
 .config/yarn
+graphify-out/

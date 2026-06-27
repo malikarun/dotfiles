@@ -13,6 +13,8 @@ Brewfile.lock.json
 
 .config/configstore
 
+.config/heroui/
+
 .config/zed/*
 !.config/zed/settings.json
 
